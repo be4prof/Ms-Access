@@ -1,4 +1,4 @@
-Function next_work_day(StartDate As Date, duration_ As Long, Optional IsHoliday As Boolean = True, _
+Function next_work_day(StartDat As Date, duration_ As Long, Optional IsHoliday As Boolean = True, _
             Optional HolidayTabName As String = "PublicHolidayT", Optional DateColName As String = "Dates")
    
    Dim nextDate As Date, result As Date
